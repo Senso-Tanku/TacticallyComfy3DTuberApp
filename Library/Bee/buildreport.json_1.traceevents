@@ -1,0 +1,841 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1687255384380494, "dur": 1341919, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687255384380664, "dur": 51856, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687255384432523, "dur": 126495, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687255384559020, "dur": 718488, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687255385277511, "dur": 432844, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687255385710357, "dur": 12055, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687255385722959, "dur": 21, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1687255384507618, "dur":13878, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384521502, "dur":1377, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687255384522911, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687255384522932, "dur":570, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687255384523532, "dur":3755, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527287, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527344, "dur":56, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527400, "dur":49, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527449, "dur":114, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527563, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527601, "dur":30, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527631, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527645, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527647, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527649, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527650, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527653, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527654, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527656, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527657, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527660, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527661, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527663, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527664, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527667, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527668, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527670, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527670, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527673, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527675, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527678, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527679, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527683, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527685, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527687, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527688, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527691, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527692, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527695, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527695, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384527710, "dur":4085, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687255384523749, "dur":3552, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255384527304, "dur":37, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255384524338, "dur":3019, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255384523877, "dur":3465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255384523999, "dur":3347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255384524218, "dur":3135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255384524105, "dur":3245, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255384524522, "dur":2872, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255384524587, "dur":2812, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687255384524644, "dur":2759, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687255384524463, "dur":2926, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255384524816, "dur":2599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255384524691, "dur":2716, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255384524756, "dur":2655, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255384524869, "dur":2550, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255384524884, "dur":2539, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687255384524971, "dur":2455, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255384536066, "dur":1362, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1687255385723062, "dur": 303, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1687255384805808, "dur": 414693, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687255384806673, "dur": 33023, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687255384948485, "dur": 260705, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687255385209192, "dur": 11303, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687255385209758, "dur": 9966, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687255385223916, "dur": 833, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1687255385223373, "dur": 1396, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687255385723437, "dur": 208, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1687255385306507, "dur":1102, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385307611, "dur":1518, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1687255385309152, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1687255385309172, "dur":459, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1687255385309656, "dur":4203, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385313859, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385676827, "dur":319, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677146, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677155, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677156, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677158, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677160, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677164, "dur":81, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677245, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677251, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677252, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677255, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677256, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677259, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677260, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677262, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677263, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677266, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677267, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677270, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677270, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677274, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677274, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677277, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677279, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677282, "dur":24, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677306, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677308, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677309, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677312, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677313, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677315, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677316, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677318, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677323, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385677340, "dur":5331, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1687255385309844, "dur":4029, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385313878, "dur":6353, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385320241, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687255385320244, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385320275, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1687255385320276, "dur":1184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321461, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321482, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321568, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321570, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321592, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321594, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321607, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321609, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321620, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321622, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321635, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/UnityConfiguration.gen.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321650, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321662, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/UnityPlayerStub/Exports.h" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321680, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385321696, "dur":207962, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM10.Format.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687255385529662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1687255385529666, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM10.Format.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1687255385530415, "dur":146404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385310373, "dur":3563, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385313936, "dur":6351, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385320287, "dur":1493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1687255385321780, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385321796, "dur":49190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.GLTF.IO.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687255385370990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385370996, "dur":732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.GLTF.IO.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687255385371735, "dur":7494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UniHumanoid.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687255385379231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385379235, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UniHumanoid.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687255385379795, "dur":103164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UniGLTF.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687255385482962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385482967, "dur":668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UniGLTF.dll" }}
+,{ "pid":12345, "tid":2, "ts":1687255385483640, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1687255385483649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385483658, "dur":672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1687255385484337, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687255385484344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385484346, "dur":17208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1687255385501561, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1687255385501612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1687255385501617, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1687255385503050, "dur":173763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385309996, "dur":3915, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385313911, "dur":6373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385320285, "dur":1575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1687255385321860, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385321876, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRM.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687255385322256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385353620, "dur":2892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRM.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687255385356523, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1687255385356769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385356773, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1687255385357400, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1687255385357620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385357624, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1687255385358225, "dur":79711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687255385437939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385438039, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687255385439153, "dur":555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Plugins/x86_64/dlibfacelandmarkdetector.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687255385439710, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385439973, "dur":3915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Plugins/x86_64/dlibfacelandmarkdetector.dll" }}
+,{ "pid":12345, "tid":3, "ts":1687255385443894, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_68_for_mobile.dat" }}
+,{ "pid":12345, "tid":3, "ts":1687255385443903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385444149, "dur":19992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_68_for_mobile.dat" }}
+,{ "pid":12345, "tid":3, "ts":1687255385464155, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_17.dat" }}
+,{ "pid":12345, "tid":3, "ts":1687255385464164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385464171, "dur":10029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_17.dat" }}
+,{ "pid":12345, "tid":3, "ts":1687255385474211, "dur":648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/haarcascade_frontalface_alt.xml" }}
+,{ "pid":12345, "tid":3, "ts":1687255385474861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385474866, "dur":8688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/haarcascade_frontalface_alt.xml" }}
+,{ "pid":12345, "tid":3, "ts":1687255385483563, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/couple_mjpeg.mjpeg" }}
+,{ "pid":12345, "tid":3, "ts":1687255385483571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385483575, "dur":4511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/couple_mjpeg.mjpeg" }}
+,{ "pid":12345, "tid":3, "ts":1687255385488095, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1687255385488222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385488226, "dur":572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1687255385488805, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1687255385488907, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385488925, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1687255385488987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385488990, "dur":11905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1687255385500903, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687255385500911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385500924, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1687255385502519, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1687255385502651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1687255385502654, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1687255385503249, "dur":173576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385310130, "dur":3786, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385313916, "dur":6321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385320241, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1687255385320276, "dur":868, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321144, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321162, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321176, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321193, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321208, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321234, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321248, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321250, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321263, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321265, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321279, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321280, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321295, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321313, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321328, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321345, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321359, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321378, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321393, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321410, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321425, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321443, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321458, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321474, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321529, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321548, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321559, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321576, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321588, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321590, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321603, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321605, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321617, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321618, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321630, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/WindowsPlayer.manifest" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321658, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321673, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/UnityPlayerStub/Exports.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321689, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385321701, "dur":16078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM.IO.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687255385337782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385355053, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM.IO.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687255385356883, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687255385356891, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385356907, "dur":64174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1687255385421084, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385421087, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1687255385421856, "dur":18706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1687255385440565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385440570, "dur":777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1687255385441352, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Plugins/x86/dlibfacelandmarkdetector.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687255385441860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385442004, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Plugins/x86/dlibfacelandmarkdetector.dll" }}
+,{ "pid":12345, "tid":4, "ts":1687255385445731, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_6.dat" }}
+,{ "pid":12345, "tid":4, "ts":1687255385445742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385445748, "dur":10025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_6.dat" }}
+,{ "pid":12345, "tid":4, "ts":1687255385455789, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_17_for_mobile.dat" }}
+,{ "pid":12345, "tid":4, "ts":1687255385455800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385455808, "dur":17710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_17_for_mobile.dat" }}
+,{ "pid":12345, "tid":4, "ts":1687255385473529, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_cat_face_68.dat" }}
+,{ "pid":12345, "tid":4, "ts":1687255385473537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385473543, "dur":7193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_cat_face_68.dat" }}
+,{ "pid":12345, "tid":4, "ts":1687255385480744, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/dance_mjpeg.mjpeg" }}
+,{ "pid":12345, "tid":4, "ts":1687255385480759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385480763, "dur":4573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/dance_mjpeg.mjpeg" }}
+,{ "pid":12345, "tid":4, "ts":1687255385485342, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687255385485351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385485354, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1687255385486685, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1687255385486693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385486696, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1687255385489451, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1687255385489458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1687255385489461, "dur":13372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1687255385502839, "dur":173977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385310249, "dur":3675, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385313924, "dur":6323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385320248, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1687255385320292, "dur":1385, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385321678, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText R:/Vtuber/customVUPThing/UnityCommon.props" }}
+,{ "pid":12345, "tid":5, "ts":1687255385321679, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385321697, "dur":24449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM.IO.Runtime.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1687255385346149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385355394, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM.IO.Runtime.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1687255385356974, "dur":55617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687255385412595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385412600, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687255385413346, "dur":16738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/EnoxSoftware.DlibFaceLandmarkDetector.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687255385430087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385430093, "dur":4199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/EnoxSoftware.DlibFaceLandmarkDetector.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687255385434298, "dur":9902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687255385444203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385444207, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1687255385444848, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_68.dat" }}
+,{ "pid":12345, "tid":5, "ts":1687255385444859, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385444871, "dur":29370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/sp_human_face_68.dat" }}
+,{ "pid":12345, "tid":5, "ts":1687255385474251, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/frontal_cat_face.svm" }}
+,{ "pid":12345, "tid":5, "ts":1687255385474331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385474337, "dur":9732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/StreamingAssets/DlibFaceLandmarkDetector/frontal_cat_face.svm" }}
+,{ "pid":12345, "tid":5, "ts":1687255385484078, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1687255385484125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385484129, "dur":17235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1687255385501372, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1687255385501381, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1687255385501384, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1687255385502855, "dur":173960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385310189, "dur":3731, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385313920, "dur":6324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385320246, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1687255385320297, "dur":1143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321441, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321471, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321526, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321547, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321561, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321582, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321600, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321604, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321616, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321617, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321630, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/WindowsPlayer.rc" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321645, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321658, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/Main.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321675, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385321690, "dur":8072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM10.MToon10.Runtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1687255385329765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385354306, "dur":2298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM10.MToon10.Runtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1687255385356621, "dur":196703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687255385553327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1687255385553332, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1687255385554138, "dur":122679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385310499, "dur":3445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385313944, "dur":6291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385320240, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1687255385320289, "dur":836, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321126, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321155, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321170, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321190, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321210, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321238, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321251, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321253, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321267, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321269, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321279, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321281, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321293, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321294, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321304, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321321, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321333, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321347, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321360, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321372, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321381, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321393, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321444, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321468, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321522, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321539, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321550, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321571, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321582, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321583, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321594, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321595, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321606, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321607, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321619, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321620, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321632, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/UnityData.vcxitems" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321646, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321660, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/UnityPlayerStub/UnityPlayerStub.vcxproj" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321675, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385321691, "dur":328666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM10.MToon10.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687255385650361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1687255385650366, "dur":813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM10.MToon10.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1687255385651186, "dur":25646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385310590, "dur":3358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385313948, "dur":6284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385320241, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1687255385320274, "dur":850, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321125, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321152, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321165, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321183, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321194, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321209, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321220, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321221, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321233, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321234, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321245, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321246, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321256, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321258, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321268, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321269, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321281, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321283, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321296, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321308, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321319, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321334, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321344, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321357, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321367, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321380, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321390, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321407, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321417, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321430, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321440, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321461, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321477, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321531, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321553, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321569, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321586, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321588, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321602, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321603, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321614, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321615, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321625, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/WindowsPlayerVersion.rc" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321641, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321654, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/PrecompiledHeader.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321668, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321680, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software.sln" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321682, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385321692, "dur":229588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM10.Format.Runtime.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1687255385551286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1687255385551290, "dur":796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.VRM10.Format.Runtime.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1687255385552092, "dur":124730, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687255385310874, "dur":3154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687255385314028, "dur":6257, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687255385320286, "dur":1402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1687255385321688, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687255385321705, "dur":40751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.GLTF.UniUnlit.Runtime.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1687255385362460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687255385362464, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.GLTF.UniUnlit.Runtime.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1687255385363301, "dur":32499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UniHumanoid.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1687255385395804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687255385395927, "dur":733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UniHumanoid.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1687255385396666, "dur":102393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/MToon.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687255385499063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687255385499068, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/MToon.dll" }}
+,{ "pid":12345, "tid":9, "ts":1687255385501058, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1687255385501066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1687255385501069, "dur":1743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1687255385502820, "dur":173994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687255385310736, "dur":3255, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687255385313991, "dur":6243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687255385320241, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1687255385320282, "dur":1733, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687255385322016, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687255385322032, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687255385322050, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1687255385322061, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687255385322080, "dur":208987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1687255385531071, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1687255385531074, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1687255385531867, "dur":144949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385311021, "dur":3063, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385314084, "dur":6202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320286, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320851, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320870, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320885, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320895, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320903, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320910, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320922, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320929, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320938, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320947, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320962, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320971, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320982, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320989, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1687255385320999, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321007, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321018, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321026, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321036, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321043, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321051, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321057, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321066, "dur":6, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321072, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321081, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321088, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321098, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321105, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321114, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321125, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321142, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321155, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321173, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321187, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321207, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321223, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321225, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321239, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321241, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321256, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321258, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321271, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321273, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321287, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321289, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321308, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321326, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321340, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321358, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321373, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321389, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321406, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321424, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321442, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321460, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321474, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321529, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321542, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321555, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321568, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321570, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321582, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321583, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321603, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321605, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321622, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/Tactically Comfy 3DTuber Software.vcxproj" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321639, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321653, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/PrecompiledHeader.h" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321669, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321683, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321702, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385321715, "dur":82421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.GLTF.IO.Runtime.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1687255385404142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385404148, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.GLTF.IO.Runtime.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1687255385405027, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687255385405035, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385405051, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1687255385405057, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385405066, "dur":195925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/EnoxSoftware.DlibFaceLandmarkDetector.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1687255385600994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1687255385600999, "dur":6137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/EnoxSoftware.DlibFaceLandmarkDetector.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1687255385607143, "dur":69675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385311230, "dur":2860, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385314090, "dur":6144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385320240, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1687255385320293, "dur":1633, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385321926, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385321937, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385321952, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385321959, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385321970, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385321978, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385321991, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385321999, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322010, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322017, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322030, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322040, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322057, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322067, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322086, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322096, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322112, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322121, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322136, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322146, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322158, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322165, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322176, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322182, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322193, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322200, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322211, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322217, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322228, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322234, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322245, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322252, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322262, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322269, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322279, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322285, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322297, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322304, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322314, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322322, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322334, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322341, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322352, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322358, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322368, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322377, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322387, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322395, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322406, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322413, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322423, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322429, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322440, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322446, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322459, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322466, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322477, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322483, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322494, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322500, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385322511, "dur":65801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1687255385388316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385388321, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389133, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389140, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389155, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389161, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389169, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389175, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389183, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389189, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389197, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389202, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389209, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389214, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389223, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389227, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389235, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389239, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389247, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389252, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389260, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389265, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389272, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389277, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389285, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389290, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389298, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389302, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389309, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389314, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389321, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389326, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389334, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389339, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389349, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389355, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389363, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389369, "dur":7, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389376, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389381, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385389394, "dur":126331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/MToon.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1687255385515728, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1687255385515731, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/MToon.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1687255385516322, "dur":160506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385311098, "dur":2989, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385314087, "dur":6153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385320242, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1687255385320294, "dur":1674, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385321969, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687255385321983, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385321997, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687255385322006, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385322018, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687255385322026, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385322038, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687255385322047, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385322058, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687255385322066, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385322080, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687255385322425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385353912, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1687255385356625, "dur":241353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1687255385597981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1687255385597986, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":13, "ts":1687255385598791, "dur":78037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385311245, "dur":2848, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385314093, "dur":6156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385320251, "dur":887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321138, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321158, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321173, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321183, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321195, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321206, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Release/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321227, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321240, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321241, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321252, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321254, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321264, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321266, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321277, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321278, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321289, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Debug/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321291, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321302, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321315, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321326, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321337, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321346, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321361, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321371, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321385, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321395, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Master/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321411, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321423, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321437, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321448, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321466, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321480, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321532, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321550, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321566, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321584, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321586, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321598, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321599, "dur":9, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321608, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x86/Debug/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321610, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321621, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/WindowsPlayer.ico" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321629, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321648, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/Tactically Comfy 3DTuber Software/resource.h" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321664, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321682, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321699, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385321715, "dur":11900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.GLTF.UniUnlit.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687255385333619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385354670, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRMShaders.GLTF.UniUnlit.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687255385356625, "dur":17828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687255385374456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385374461, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1687255385375383, "dur":131411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UniGLTF.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1687255385506798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1687255385506803, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UniGLTF.pdb" }}
+,{ "pid":12345, "tid":14, "ts":1687255385507492, "dur":169320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385311313, "dur":2783, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385314097, "dur":6140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385320241, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1687255385320295, "dur":1596, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321892, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321908, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321930, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321937, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321948, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321955, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321967, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321974, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321988, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385321996, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322009, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322021, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322037, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322049, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322066, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322076, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322093, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322103, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322123, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322132, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322145, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322152, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322165, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322172, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322183, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322189, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322200, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322207, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322220, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322226, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322237, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322243, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322253, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322259, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322270, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322283, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322294, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322301, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322312, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322318, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322330, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322337, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322348, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322354, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322365, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322373, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322385, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322392, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322402, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322408, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322419, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322425, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322436, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322443, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322454, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322460, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322471, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322478, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322489, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322496, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322507, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322513, "dur":11, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385322524, "dur":353398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385675926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1687255385675931, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1687255385676791, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":15, "ts":1687255385676793, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687255385311396, "dur":2704, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687255385314100, "dur":6136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687255385320241, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/x64/Master/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1687255385320274, "dur":1546, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687255385321821, "dur":271162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRM.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1687255385592988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1687255385593094, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"R:/Vtuber/customVUPThing/build/bin/Tactically Comfy 3DTuber Software_Data/Managed/VRM.pdb" }}
+,{ "pid":12345, "tid":16, "ts":1687255385593902, "dur":82922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1687255385686716, "dur":4937, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1687255385723696, "dur": 825, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1687255385722942, "dur": 1600, "ph": "X", "name": "Write chrome-trace events", "args": {} },
