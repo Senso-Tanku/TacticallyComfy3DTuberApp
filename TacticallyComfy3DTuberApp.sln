@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRMShaders.VRM10.Format.Run
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRMShaders.GLTF.UniUnlit.Runtime", "VRMShaders.GLTF.UniUnlit.Runtime.csproj", "{F5C6C9D8-E227-E0CF-C17E-B781A4C6D439}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.LipSync", "Oculus.LipSync.csproj", "{0192D3E6-189F-4CB7-3117-75E94DECAA69}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniGLTF.Tests", "UniGLTF.Tests.csproj", "{E6C8EC62-A255-0CD6-A432-55193678691F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniVRM.Editor", "UniVRM.Editor.csproj", "{0484B245-2A94-90DD-CC9F-20DEE0DD25D9}"
@@ -48,6 +50,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniHumanoid.Editor.Tests", "UniHumanoid.Editor.Tests.csproj", "{63866AFF-922A-ABC8-0CCE-D1753D0E9E91}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRMShaders.VRM.IO.Editor", "VRMShaders.VRM.IO.Editor.csproj", "{427D9C60-98A5-4894-F6F7-1826B6BDD764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.LipSync.Editor", "Oculus.LipSync.Editor.csproj", "{3AFD31C6-2D14-05CD-7BCD-06E99E6A36B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +99,10 @@ Global
 		{F5C6C9D8-E227-E0CF-C17E-B781A4C6D439}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5C6C9D8-E227-E0CF-C17E-B781A4C6D439}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5C6C9D8-E227-E0CF-C17E-B781A4C6D439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0192D3E6-189F-4CB7-3117-75E94DECAA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0192D3E6-189F-4CB7-3117-75E94DECAA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0192D3E6-189F-4CB7-3117-75E94DECAA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0192D3E6-189F-4CB7-3117-75E94DECAA69}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E6C8EC62-A255-0CD6-A432-55193678691F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E6C8EC62-A255-0CD6-A432-55193678691F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6C8EC62-A255-0CD6-A432-55193678691F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -151,6 +159,10 @@ Global
 		{427D9C60-98A5-4894-F6F7-1826B6BDD764}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{427D9C60-98A5-4894-F6F7-1826B6BDD764}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{427D9C60-98A5-4894-F6F7-1826B6BDD764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFD31C6-2D14-05CD-7BCD-06E99E6A36B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFD31C6-2D14-05CD-7BCD-06E99E6A36B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFD31C6-2D14-05CD-7BCD-06E99E6A36B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFD31C6-2D14-05CD-7BCD-06E99E6A36B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -62,17 +62,27 @@
     <Compile Include="Assets\FaceTracker.cs" />
     <Compile Include="Assets\EVMC4U\Test\DaisyChainTesting.cs" />
     <Compile Include="Assets\EVMC4U\Test\AddComponentTest.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeIKTarget.cs" />
     <Compile Include="Assets\uOSC\Scripts\Core\DotNet\Udp.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\HandCatch\HandCatch_Helper.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\Plugins\ThunderSVMModel.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\Plugins\SVMModel.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\OpenSee.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\HandCatch\HandCatch_WeaponHelper.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\CapsuleRigidbodyMover\CapsuleRigidbodyMover.cs" />
+    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\DisposableDlibObject.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeInterpolation.cs" />
+    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\DlibException.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\CalibrationByController\CalibrationByController.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeProcessInterface.cs" />
     <Compile Include="Assets\EVMC4U\CameraReceiver.cs" />
     <Compile Include="Assets\uOSC\Scripts\Core\Util.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\misc\HiResolutionPhotoCamera.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeLauncher.cs" />
     <Compile Include="Assets\EVMC4U\ExternalController.cs" />
     <Compile Include="Assets\EVMC4U\Test\InputTesting.cs" />
     <Compile Include="Assets\uOSC\Scripts\Core\Bundle.cs" />
+    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\DisposableObject.cs" />
     <Compile Include="Assets\uOSC\Examples\Scripts\ServerBlobTest.cs" />
     <Compile Include="Assets\EVMC4U\CommunicationValidator.cs" />
     <Compile Include="Assets\uOSC\Examples\Scripts\ClientBundleTest.cs" />
@@ -81,19 +91,24 @@
     <Compile Include="Assets\EVMC4U\ExternalReceiver.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\FreezeSwitch\FreezeSwitch.cs" />
     <Compile Include="Assets\uOSC\Scripts\Core\Reader.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeExpression.cs" />
     <Compile Include="Assets\EVMC4U\class\ExternalReceiverManager.cs" />
     <Compile Include="Assets\uOSC\Scripts\Core\Uwp\Udp.cs" />
     <Compile Include="Assets\uOSC\Scripts\Core\Udp.cs" />
     <Compile Include="Assets\EVMC4U\class\EVMC4Ustructs.cs" />
     <Compile Include="Assets\uOSC\Scripts\Core\DotNet\Thread.cs" />
+    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\Utils.cs" />
     <Compile Include="Assets\EVMC4U\class\EVMC4UeventClass.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\HandCatch\HandCatch.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\DeviceAttacher\DeviceAttacher.cs" />
     <Compile Include="Assets\uOSC\Scripts\Core\Parser.cs" />
     <Compile Include="Assets\EVMC4U\InputReceiver.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeShowPoints.cs" />
     <Compile Include="Assets\uOSC\Scripts\uOscServer.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeKinematicInterpolation.cs" />
     <Compile Include="Assets\EVMC4U\DirectionalLightReceiver.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\ObjectSwitch\ObjectSwitch.cs" />
+    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\FaceLandmarkDetector.cs" />
     <Compile Include="Assets\EVMC4U\SampleScripts\TeleportKit\TeleportManager.cs" />
     <Compile Include="Assets\uOSC\Scripts\Core\Thread.cs" />
     <Compile Include="Assets\uOSC\Scripts\uOscClient.cs" />
@@ -101,25 +116,18 @@
     <Compile Include="Assets\uOSC\Scripts\Core\Message.cs" />
     <Compile Include="Assets\EVMC4U\class\IExternalReceiver.cs" />
     <Compile Include="Assets\EVMC4U\DeviceReceiver.cs" />
-    <Compile Include="Assets\uOSC\Examples\Scripts\ServerTest.cs" />
-    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\FaceLandmarkDetector.cs" />
-    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\Utils.cs" />
-    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\DisposableObject.cs" />
-    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\DlibException.cs" />
-    <Compile Include="Assets\DlibFaceLandmarkDetector\Scripts\DisposableDlibObject.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeInterpolation.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeKinematicInterpolation.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeLauncher.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeShowPoints.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\Plugins\SVMModel.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\Plugins\ThunderSVMModel.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\OpenSee.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeIKTarget.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeProcessInterface.cs" />
     <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeJobManagement.cs" />
-    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeExpression.cs" />
+    <Compile Include="Assets\uOSC\Examples\Scripts\ServerTest.cs" />
+    <Compile Include="Assets\OpenSeeFace\Unity\OpenSeeVRMDriver.cs" />
+    <Compile Include="Assets\FastIK\Scripts\Sample\SampleProcedualAnimation.cs" />
+    <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKFabric.cs" />
+    <Compile Include="Assets\FastIK\Scripts\Sample\SampleSinMover.cs" />
+    <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKCCD.cs" />
+    <Compile Include="Assets\FastIK\Scripts\Sample\SampleRotator.cs" />
+    <Compile Include="Assets\FastIK\Scripts\FastIK\FastIKLook.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\FastIK\Documentation.txt" />
     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon.shader" />
     <None Include="Assets\OpenSeeFace\Binary\api-ms-win-core-namedpipe-l1-1-0.dll" />
     <None Include="Assets\OpenSeeFace\Binary\escapi_x86.dll" />
@@ -163,6 +171,7 @@
     <None Include="Assets\OpenSeeFace\Binary\api-ms-win-core-file-l1-1-0.dll" />
     <None Include="Assets\OpenSeeFace\Binary\api-ms-win-core-heap-l1-1-0.dll" />
     <None Include="Assets\OpenSeeFace\Binary\api-ms-win-core-synch-l1-1-0.dll" />
+    <None Include="Assets\TODO.txt" />
     <None Include="Assets\OpenSeeFace\Binary\escapi_x64.dll" />
     <None Include="Assets\OpenSeeFace\Binary\libssl-1_1.dll" />
     <None Include="Assets\VRMShaders\VRM10\MToon10\Resources\VRM10\vrmc_materials_mtoon_forward_fragment.hlsl" />
@@ -912,6 +921,14 @@
     <ProjectReference Include="VRM.csproj">
       <Project>{0E5CD812-8F5D-B034-01C5-9DF779F82B3E}</Project>
       <Name>VRM</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.LipSync.Editor.csproj">
+      <Project>{3AFD31C6-2D14-05CD-7BCD-06E99E6A36B8}</Project>
+      <Name>Oculus.LipSync.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Oculus.LipSync.csproj">
+      <Project>{0192D3E6-189F-4CB7-3117-75E94DECAA69}</Project>
+      <Name>Oculus.LipSync</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
